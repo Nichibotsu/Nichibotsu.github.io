@@ -2,5 +2,35 @@
     max-width: 1920px;
     justify-content:center;
     margin: 0 auto;
+    font-family: sans-serif;
     
+}
+.home{
+    width: 100%;
+    height: auto;
+    background-image:url(bilder/Homekok.png);
+    background-size:100% 100%;
+    
+}
+.hometext{
+    color:white;
+    font-weight: bold;
+    font-size:2.9em;
+    padding: 2.97em;
+    padding-bottom:-14vh;
+    text-align: center;
+    max-height: 49vh;
+    text-align: center;
+    background-repeat: no-repeat;
+    height:auto;
+
+}
+.effekt{
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4);
+    
+}
+body{
+    margin:0;
+    padding:0;
 }
