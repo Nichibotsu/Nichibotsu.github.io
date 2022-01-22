@@ -127,11 +127,11 @@ a{
     .hashtext{
         font-size:2em;
         padding-bottom: 20vh;
-        padding-top: 8vh;
+        padding-top: 0vh;
         text-align: left;
         margin: auto;
         max-width: 90%;
-        margin-left: 5vw;
+        margin-left: 10vw;
         
     }
     
@@ -180,7 +180,7 @@ a{
     }
     .Synapse{
         height:auto;
-        margin-top: 30vh;
+        margin-top: 15vh;
         
     }
     .Synapseall{
