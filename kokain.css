@@ -34,3 +34,93 @@ body{
     margin:0;
     padding:0;
 }
+.geschichte{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: minmax(50rem,auto);
+    background-color: #FFEDE6;
+
+}
+.AbbildungGeschichte{
+    display:flex;
+    align-items:center;
+    margin: 0 auto;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    
+
+}
+.AbbildungGeschichte img{
+    height:auto;
+    max-width: 100%;
+    
+}
+.AbbildungGeschichte figcaption{
+    font-size: 2em;
+}
+.geschichtetext{
+    height:auto;
+    color:black;
+    padding-left: 3vw;
+    padding-bottom: 10vh;
+    
+}
+.geschichtetext h1{
+    font-size:3em;
+    text-align: center;
+
+}
+.geschichte li{
+    text-align: left;
+    padding-left:1vw;
+    font-family: arial;
+    padding-top: 1vh;
+    font-size: 2em;
+    max-width: 100%;
+    padding-right: 2vw;
+}
+.Gewinnung{
+    background-color:#7DB3AA ;
+    margin-top: -8vh;
+    text-align: center;
+    height: auto;
+}
+.Gewinnung h1{
+    font-size: 3em;
+    padding: 4vh;
+}
+
+.Gewinnugntext p{
+    margin-top:7vh;
+    font-size: 2.5em;
+    padding: 0.5vh;
+    text-align: left;
+    margin-left: 2.5vw;
+}
+
+.Gewinnungall{
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+figcaption{
+    font-size:1.5em;
+}
+
+@media (min-width:1380px) {
+    
+     
+ }
+ @media(max-width:1380px) {
+     .geschichte{
+         display:grid;
+         grid-template-columns: 100%;
+     }
+     .Gewinnungall{
+         flex-direction:column;
+         align-items: center;
+     }
+    
+
+     
+ }
