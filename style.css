@@ -114,15 +114,17 @@ a{
         float:left;
         width:25%;
         margin-left:1vw;
-        height: auto;
+        border:0.5em solid;
+        border-color: #FDF5E6;
     
     }
     .hashtext{
         font-size:2em;
-        padding-bottom: 10vh;
+        padding-bottom: 20vh;
         padding-top: 8vh;
         text-align: left;
         margin-left: 30vw;
+        padding-right:30vw ;
         
     }
     
@@ -131,16 +133,44 @@ a{
         float: right;
         width:25%;
         margin-right: 1vw;
-        height: auto;
+        border:0.5em solid;
+        border-color: #FDF5E6;
+        margin-top:-5vh;
         
     
     }
-    .Mario p{
+    .Mario li{
         font-size:2em;
-        padding-top: 8vh;
+        padding-top: 0vh;
         text-align: left;
-        padding-bottom: 20vh;
-        padding-left: 4vw;
+        padding-bottom: 0.1vh;
+        padding-left: 30vw;
+        margin-left:0vw;
+    }
+    .stoffe h1{
+        font-size:1.9rem;
+    }
+    .Synapsebild{
+        margin-top:-20vh;
+        float:right
+    }
+    .Synapsebild img{
+        width:100%
+        
+    }
+    .Synapsetext{
+        font-size:2em;
+        padding-top: 0vh;
+        text-align: left;
+        padding-bottom: 50vh;
+        padding-left: 3vw;
+        margin-left:0vw;
+
+    }
+    .Synapse{
+        height:auto;
+        margin-top: 30vh;
+        
     }
      
  }
@@ -160,16 +190,33 @@ a{
         display:block;
         width:50%;
         margin:auto ;
-        height: auto;
+        border:0.5em solid;
+        border-color: #FDF5E6;
         
         
     
+    }
+    .Synapsebild img{
+        display:block;
+        width:50%;
+        margin:auto ;
+        border:0.5em solid;
+        border-color: #FDF5E6;
+        
+    }
+    .Synapsetext{
+        font-size:2em;
+        padding-bottom: 10vh;
+        padding-top: 4vh;
+        text-align: center;
+        margin-left: 3vw;
+
     }
     .hashtext{
         font-size:2em;
         padding-bottom: 10vh;
         padding-top: 4vh;
-        text-align: left;
+        text-align: center;
         margin-left: 3vw;
         
     }
@@ -179,25 +226,28 @@ a{
         display:block;
         width:50%;
         margin: auto;
-        height: auto;
+        border:0.5em solid;
+        border-color: #FDF5E6;
 
         
     
     }
-    .Mario p{
+    .Mario li{
         font-size:2em;
-        padding-bottom: 10vh;
-        padding-top: 4vh;
-        text-align: left;
+        padding-bottom: 1vh;
+        padding-top: 0vh;
+        text-align: center;
         margin-left: 3vw;
+        
+    }
+    .stoffe h1{
+        font-size:1.5em;
     }
 
      
  }
 
-.stoffe h1{
-    font-size:1.9rem;
-}
+
 .Wirkung{
     background-color:#6865A1;
     color:#fff;
@@ -209,6 +259,36 @@ a{
     padding: 4vh;
     font-size: 3em;
 }
+.Wirkung h2{
+    text-align:left;
+    margin-left: 2vw;
+    margin-bottom: 7vh;
+    font-size: 2em;
+}
+.Anwendung{
+    background-color:#6587AD;
+    margin-top: -4vh;
+    color: white;
+    text-align: center;
+}
+.Anwendung h1 {
+    padding: 4vh;
+    font-size: 3em;
+}
+.Anwendung table{
+    margin: auto;
+    font-size: 2em;
+    border: 0.2em solid;
+    border-color: black;
+    text-align: left;
+    border-spacing: 0.8em;
+    
+}
+.Spalte tr{
+    font-sizes: 20em;
+}
+
+
 
 
 
