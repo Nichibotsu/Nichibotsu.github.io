@@ -101,6 +101,7 @@ body{
 .Gewinnungall{
     display:flex;
     flex-direction: row-reverse;
+    padding-bottom: 4vh;
 }
 
 figcaption{
@@ -108,6 +109,31 @@ figcaption{
 }
 
 @media (min-width:1380px) {
+    .Wirkungsweisetext{
+        font-size: 2em;
+        max-width: 40%;
+    }
+    .kokainrauschall{
+        flex-direction: row-reverse;
+    }
+    .kokainrauschbild img{
+        width: 100%;
+    }
+    .Folgeschaeden li{
+        font-size: 1.5em;
+    }
+    .aball{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-bottom: 4vh;
+    }
+    .abhaeningbild{
+        width: 100%;
+        
+    }
+    .abhaeningbild figcaption{
+        width: 100%;
+    }
     
      
  }
@@ -119,8 +145,228 @@ figcaption{
      .Gewinnungall{
          flex-direction:column;
          align-items: center;
+         
      }
-    
+     .Wirkungsweiseall{
+        flex-direction:column;
+        align-items: center;
+        
+     }
+     .Wirkungsweisetext{
+         margin-left: 2vw;
+     }
+     .kokainrauschall{
+         flex-direction:column;
+         height: auto;
+
+         
+     }
+     .kokainrauschbild img{
+         width: 50%;
+
+     }
+     .kokainrauschbild{
+         margin-bottom: 4vh;
+     }
+     .kokainrauschbild figcaption{
+        width: 50%;
+    }
+    .Folgeschaeden li{
+        font-size: 1.1em;
+       
+    }
+    .aball{
+        display:flex;
+        flex-direction: column;
+        height: auto;
+        
+    }
+    .abhaeningbild img{
+        width: 100%;
+    }
+    .abhaeningbild figcaption{
+        width: 100%;
+    }
 
      
  }
+ .Wirkungsweise{
+    background-color: #7CA6BF;
+    height: auto;
+ }
+ .Wirkungsweise h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -4vh;
+ }
+ .Wirkungsweiseall{
+     display: flex;
+
+
+ }
+ .Wirkungsweisetext{
+    font-size: 2em;
+}
+ .Wirkungsweisebild img{
+     width: 100%;
+ }
+ .Wirkungsweise h2{
+     margin-left: 2vw;
+ }
+.Kokainrausch p{
+    margin: 0;
+    font-size:1.5em;
+    
+}
+.Kokainrausch table{
+    margin-bottom: 2vh;
+}
+.Kokainrausch li{
+    font-size: 1.5em
+}
+.Kokainrausch{
+    margin-left: 4vw;
+    
+    
+}
+.Nebenwirkungen{
+    border: 0.5em solid;
+    max-width: 50vw;
+    padding:1em;
+    margin-bottom: 5vh;
+}
+.kokainrauschall{
+    display: flex;
+    
+    justify-content: left;
+
+}
+
+.kokainrauschbild{
+    margin-left: 15vw;
+}
+.Risikofaktoren{
+    background-color:#3F6073;
+    color:white;
+
+}
+.Risikofaktoren h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -2vh;
+}
+.Risikofaktoren p{
+    font-size: 2em;
+    text-align: left;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding-bottom: 10vh; 
+}
+.Anwendungen{
+    background-color:#314B59;
+    color:white;
+    margin-top:-4vh;
+    display: block;
+    justify-content: center;
+}
+.Anwendungen h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -2vh;
+
+}
+
+.Anwendungentext p{
+    font-size: 1.5em;
+    text-align: center;
+}
+.Anwendungentext tr{
+    font-size: 1.5em;
+}
+.Anwendungentext th{
+    text-decoration: underline;
+}
+.Anwendungentext td{
+    padding-bottom: 2vh;
+}
+.Anwendungentext table{
+    padding-bottom: 5vh;
+    margin:0 auto;
+}
+.Folgeschaeden h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -2vh;
+
+}
+.Folgeschaeden{
+    background-color:#33665C;
+    color:white;
+}
+.Folgeschaeden table{
+    margin:0 auto;
+    width:100%;
+    padding-bottom: 7vh;
+}
+.Folgeschaeden th{
+    font-size: 2em;
+}
+.Abhaeningkeit{
+    background-color: #B3FFF0;
+}
+.Abhaeningkeit h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -2vh;
+}
+
+.abhaeningkeittext{
+    font-size: 2em;
+    margin-left: 3vw;
+}
+.Therapie h1{
+    font-size: 3em;
+    padding: 4vh;
+    text-align: center;
+    margin-top: -2vh;
+
+}
+.Therapie{
+    background-color:#2e7599 ;
+    color: black;
+
+}
+.Therapie table{
+    margin-bottom:2vh;
+    margin-left: 2vw;
+}
+.Therapie p{
+    font-size: 1.5em;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    text-align: left;
+
+
+}
+.Therapie li{
+    font-size: 1.5em;
+}
+.Therapie th{
+    text-decoration: underline;
+}
+.Therapieall{
+    max-width: 70%;
+    margin: auto;
+    padding-bottom: 5vh;
+}
+a{
+    font-size:50px;
+    color:black;
+}
+
+

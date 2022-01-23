@@ -313,11 +313,50 @@ figcaption{
 }
 .therapie{
     background-color:#5FC78C;
-    text-align: center;
     height: auto;
+    margin-top: -4vh;
+}
+.therapie h1{
+    padding: 4vh;
+    font-size: 3em;
+    text-align: center;
 }
 .placeholder{
     padding-bottom: 4vh;
+}
+.Therapieall{
+    margin: auto;
+    padding-left: 22.5vw;
+    padding-bottom: 4vh;
+    
+    
+}
+.Therapieall p{
+    text-align: left;
+    font-size: 2em;
+    margin:0;
+    margin-bottom: 1vh;
+}
+.Therapieall li{
+    font-size: 2em;
+    margin: 1vh;
+}
+.Risiken h1{
+    padding: 4vh;
+    font-size: 3em;
+    text-align:center;
+    margin-top: -1vh;
+
+}
+.Risikenall{
+    font-size: 2em;
+    text-align:left;
+    margin-left: 22.5vw;
+    padding-bottom: 7vh;
+}
+.Risikenall p{
+    margin: 0;
+    margin-bottom: 1vh;
 }
 
 
