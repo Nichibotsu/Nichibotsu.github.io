@@ -211,6 +211,9 @@ a{
         
     
     }
+    .geschichte{
+        grid-template-columns:100%
+    }
     .Synapsebild img{
         display:block;
         width:50%;
@@ -259,6 +262,91 @@ a{
         font-size:1.5em;
     }
 
+
+     
+ }
+ @media(max-width:720px) {
+     .stoffe{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: minmax(50rem auto);
+        align-content: center;
+        max-width: 100%;
+        
+    }
+    .Hash{
+        margin-bottom: 5vh;
+    }
+    .hash-bild img{
+        display:block;
+        width:50%;
+        margin:auto ;
+        border:0.5em solid;
+        border-color: #FDF5E6;
+        
+        
+    
+    }
+    .geschichte{
+        grid-template-columns:100%
+    }
+    .Synapsebild img{
+        display:block;
+        width:50%;
+        margin:auto ;
+        border:0.5em solid;
+        border-color: #FDF5E6;
+        
+    }
+    .Synapsetext{
+        font-size:2em;
+        padding-bottom: 10vh;
+        padding-top: 4vh;
+        text-align: center;
+        margin-left: 3vw;
+
+    }
+    .hashtext{
+        font-size:2em;
+        padding-bottom: 10vh;
+        padding-top: 4vh;
+        text-align: center;
+        margin-left: 3vw;
+        
+    }
+    
+    
+    .Mario img{
+        display:block;
+        width:50%;
+        margin: auto;
+        border:0.5em solid;
+        border-color: #FDF5E6;
+
+        
+    
+    }
+    .Mario li{
+        font-size:2em;
+        padding-bottom: 1vh;
+        padding-top: 0vh;
+        text-align: center;
+        margin-left: 3vw;
+        
+    }
+    .stoffe h1{
+        font-size:1.5em;
+    }
+    .Anwendung{
+        font-size:0.4em
+    }
+    .Therapieall{
+        font-size: 1em;
+    }
+    .Risikenall p{
+        font-size: 0.7em;
+        max-width:99%;
+    }
      
  }
 

@@ -134,6 +134,13 @@ figcaption{
     .abhaeningbild figcaption{
         width: 100%;
     }
+    .Folgeall{
+        display: flex;
+        padding-bottom: 4vh;
+        justify-content: center;
+        width: 100%;
+        flex-direction: row;
+    }
     
      
  }
@@ -142,9 +149,13 @@ figcaption{
          display:grid;
          grid-template-columns: 100%;
      }
+     .Gewinnungbild2 img{
+         width: 20%;
+     }
      .Gewinnungall{
          flex-direction:column;
          align-items: center;
+         
          
      }
      .Wirkungsweiseall{
@@ -187,6 +198,15 @@ figcaption{
     .abhaeningbild figcaption{
         width: 100%;
     }
+    .Folgeall{
+        display: flex;
+        padding-bottom: 4vh;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+    }
+
 
      
  }
@@ -307,14 +327,12 @@ figcaption{
     background-color:#33665C;
     color:white;
 }
-.Folgeschaeden table{
-    margin:0 auto;
-    width:100%;
-    padding-bottom: 7vh;
-}
-.Folgeschaeden th{
+
+.Folgeall h2{
+
     font-size: 2em;
 }
+
 .Abhaeningkeit{
     background-color: #B3FFF0;
 }
