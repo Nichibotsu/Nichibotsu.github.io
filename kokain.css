@@ -122,6 +122,18 @@ figcaption{
     .Folgeschaeden li{
         font-size: 1.5em;
     }
+    .Korp {
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+    .Psych{
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+    .Sozial{
+        margin-left: 2vw;
+        margin-right: 0vw;
+    }
     .aball{
         display: flex;
         flex-direction: row-reverse;
