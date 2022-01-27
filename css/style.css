@@ -1,0 +1,54 @@
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    background-color: #18171c;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    margin:0 auto;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #dbdbdb;
+    line-height: 1;
+    letter-spacing: 0.2em;
+}
+.navbar a:hover
+{
+    color:#7851a9;
+    transition:200ms;
+    
+    
+}
+.navbar ul{
+    display:flex;
+    flex-direction:row;
+    
+    
+    
+}
+.navbar li{
+    list-style:none;
+    padding: 2vh 2vw 0vh 2vw;
+    text-size-adjust: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    position: relative;
+}
+#github-bild {
+    position: absolute;
+    filter: grayscale(1) invert(1);
+    margin-top: -0.2vh;
+}
+.profile img{
+    display:flex;
+    justify-content:center;
+    margin:0 auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 20px solid;
+    
+}
