@@ -1,8 +1,8 @@
 body{
-    font-family: Roboto;
+    font-family: roboto!important;
+    font-variant-alternates: sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: #18171c;
 }
 .navbar{
     display: flex;
@@ -12,7 +12,7 @@ body{
 }
 .navbar a{
     text-decoration: none;
-    color: #dbdbdb;
+    color: black;
     line-height: 1;
     letter-spacing: 0.2em;
 }
@@ -37,15 +37,31 @@ body{
 }
 #github-bild {
     position: absolute;
-    filter: grayscale(1) invert(1);
     margin-top: -0.2vh;
 }
-.profile img{
-    display:flex;
-    justify-content:center;
-    margin:0 auto;
-    width: 20%;
-    border-radius: 50%;
-    border: 20px solid;
+.verticalnavbar li{
+    list-style-type: none;
+    margin:1.5vh auto; 
+
+}
+.verticalnavbar a{
+    text-decoration:none;
     
+
+}
+.verticalnavbar ul{
+    height:40vh;
+    overflow:auto;
+    border: 0.1em solid;
+}
+#split{
+    border-top: 0.2em solid;
+    margin-left:5%;
+    margin-top:2%;
+    margin-right: 5%;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+}
+.inhalt{
+    margin: 0 auto 0 4vw;
 }
