@@ -62,21 +62,34 @@ body{
 }
 .verticalnavbar ul{
     height:40vh;
-    overflow:auto;
     border-right: 0.1em solid;
+    box-shadow: 2em;
+    
     padding-right: 3vw;
+    overflow-y:auto;
+    display: block;
+    
+}
+.verticalnavbar{
+    display: block;
+    margin: 0 4vw 0 0;
+    width: 100%;
+    height: 100%;
+
 }
 #split{
-    
     margin-left:5%;
     margin-top:0.4%;
     margin-right: 5%;
     display:grid;
     grid-template-columns: 1fr 5fr;
+    
 }
 .inhalt{
-    margin: 0 auto 0 4vw;
+    margin-left: 2vw;
 }
-.inhalt h1{
-    font-size: 2em;
+.inhalt img{
+    width: 70%;
+
 }
+
