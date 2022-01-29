@@ -89,9 +89,16 @@ body{
     margin-left: 2vw;
     font-size: 1.4em;
 }
-.inhalt img{
-    max-width: 500px;
-    width: 100%;
-
+code{
+    
+    border-left: 2em solid;
+    border-color: blue;
+}
+#komplett{
+    border-left: 2em solid;
+    border-color: blue;
+}
+#komplett code{
+    border-left: none;
 }
 
