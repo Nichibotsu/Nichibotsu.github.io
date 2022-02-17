@@ -4,12 +4,6 @@ body{
     padding: 0;
     background-color: #18171c;
 }
-.navbar{
-    display: flex;
-    justify-content:center;
-    margin:0 auto;
-    
-}
 .navbar a{
     text-decoration: none;
     color: #dbdbdb;
@@ -25,15 +19,15 @@ body{
 .navbar ul{
     display:flex;
     flex-direction:row;
-    
+    justify-content:center;
+    margin-left:10%;
+    margin-right:10%;
 }
 .navbar li{
     list-style:none;
-    padding: 2vh 2vw 0vh 2vw;
-    text-size-adjust: 100%;
+    padding: 2vh 2vw 0vh 0vw;
     text-align: left;
     font-size: 1.5em;
-    position: relative;
 }
 #github-bild {
     position: absolute;
@@ -41,11 +35,14 @@ body{
     margin-top: -0.2vh;
 }
 .profile img{
-    display:flex;
-    justify-content:center;
-    margin:0 auto;
+    max-width: 100%;
     width: 20%;
     border-radius: 50%;
     border: 20px solid;
     
+}
+.profile{
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }

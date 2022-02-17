@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/html/Edittext/Edittext.css">
+    <link rel="stylesheet" href="/Edittext.css">
     <title>playground-EditText</title>
 </head>
 <body>
@@ -53,7 +53,7 @@
             <p>Die Beeinflussung von HTML-Elemente mit JavaScript läuft über DOM (Document Object Model).
                 Damit kann z.B. der Inhalt verändert werden, bzw. auch das Design – es kann auch auf alle CSS-Eigenschaften zugegriffen werden.
                 ).
-                </p>
+            </p>
             <code><span><</span><span>p</span><span>></span>erster Absatz im JavaScript-Kurs zur Demonstration<span><</span><span>/</span><span>p</span><span>></span></code>
             <p></p>
             <code>document.getElementById</code>
@@ -76,12 +76,10 @@
             <button onclick="Eintragen()">Eintragen</button>
             <span id="Name-Anzeige">Name:</span>
             <script>
-                
                 function Eintragen(){
                     const x=document.getElementById("Name").value;
                     console.log(x);
-                    document.getElementById("Name-Anzeigen").innerHTML=x;
-
+                    document.getElementById("Name-Anzeige").innerText="Name:"+x;
                 }
             </script>
             
