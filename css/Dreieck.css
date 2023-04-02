@@ -1,0 +1,73 @@
+body{
+    font-family: Arial;
+}
+.Dreieck{
+    border: 5px solid;
+    padding-top: 3vh;
+    max-width:1600px;
+    margin: auto;
+}
+.Werte{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    width:100%;
+    
+}
+.Werte input{
+    margin-top:1vh;
+    font-size: 2em;
+    height: 50px;
+    
+    
+}
+.wert{
+    display:flex;
+    flex-direction:row;
+    margin: auto 0;
+    width:auto;
+}
+.wert h1{
+    margin-left:2vh;
+    margin-right:2vh;
+}
+button{
+    font-size: 3em;
+    margin-left:2vw;
+    margin-bottom:5vh;
+}
+.layout{
+    display:flex;
+    width:100%;
+}
+img{
+    width:50%;
+}
+.result{
+    margin-left: 2vh;
+    font-size: 2em;
+}
+@media screen and (max-width:1000px) {
+
+    .layout{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    width:100%;
+    }
+
+    .Werte{
+        align-items: center;
+    }
+
+    .result{
+        display:flex;
+        align-items: center;
+        flex-direction:column;
+    }
+    .result p{
+        margin:1.2vh;
+    }
+   
+}

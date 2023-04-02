@@ -1,0 +1,18 @@
+body{
+    font-family: roboto!important;
+    font-variant-alternates: sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color:#FFEDE6;
+}
+
+.inhalt{
+    margin-left: 2vw;
+    font-size: 1.4em;
+}
+.inhalt img{
+    max-width: 500px;
+    width: 100%;
+
+}
+

@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/playground.css">
+    <script src="/Javascript/playground.js"></script>
     <title>playground</title>
 </head>
 <body>
@@ -24,34 +25,40 @@
         <nav class="verticalnavbar">
             <ul>
                 <li>
-                    <h1>Projekte</h1>
+                    <a href="/html/playground.html">
+                        <h1 >Projekte</h1>
+
+                    </a>
+                    
                 </li>
                 <li>
                     
-                    <a href="/html/Hello World/HelloWorld.html">Hello World</a>
+                    <a onclick="hello_world()" >Hello World</a>
     
                 </li>
                 <li>
-                    
-                    <a href="/html/Edittext/Edittext.html">Edit Text</a>
+                    <a onclick="edit_text()">Edit Text</a>
                 </li>
                 <li>
-                    <a href="">Caesar-Cphier</a>
-                    
-                    
-                </li>
-                <li>
-                    <a href="">Rechner</a>
+                    <a onclick="dreieck()">Dreieck</a>
                     
                 </li>
+
+               
                
                 
             </ul>
         </nav>
         <div class="inhalt">
-            <h1>Home</h1>
-            <p>Diese Seite dient nur zum Javascript programmieren</p>
+            <div id="standard-text">
+                <h1>Home</h1>
+                <p>Diese Seite dient nur zum Javascript programmieren</p>
+
+            </div>
+            <iframe id="frame" frameborder="0"></iframe>
+            
         </div>
+        
 
     </section>
     
